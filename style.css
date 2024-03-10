@@ -1,0 +1,25 @@
+body 
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container 
+{
+    width: 60%;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    resize: both;
+    overflow: auto;
+    padding: 20px;
+    min-height: 200px;
+    max-height: 400px;
+}
+.resize-handle 
+{
+    width: 20px;
+    height: 20px;
+    background-color: #ccc;
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    cursor: se-resize;
+}
